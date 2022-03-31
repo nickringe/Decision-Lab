@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class decisionMaking {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		System.out.println("Please enter a number between 1 and 100:");
+		int userInput = scnr.nextInt();
+		
+		if (userInput % 2 != 0) {
+			System.out.println("ODD");
+		}
+		System.out.println(userInput);
+
+	}
+
+}
